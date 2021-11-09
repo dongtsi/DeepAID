@@ -47,7 +47,7 @@ We provide several cases to show how to interpret your own anomaly detection mod
 DeepAID follows a general interpretation framework for various types of DL models and security domains. The core idea of interpreting anomalies in DeepAID is searching a **reference** and interpreting throuth the **difference** between the **reference** and anomaly. The searching process is limited by several considerations (i.e., constraints) to generate high-qulity results. Here is an illustration:
 ![framework](instruction/framework.gif)
 
-**See our [paper](https://arxiv.org/abs/2005.07519) for more technical details and  the [instruction](instruction/main.md) of building Interpreters for your own models.**
+**See our [paper](https://arxiv.org/abs/2109.11495) for more technical details and  the [instruction](instruction/main.md) of building Interpreters for your own models.**
 
 
 
@@ -57,7 +57,7 @@ This source code is part of our work accepted by [CCS'21](https://www.sigsac.org
 
 ***DeepAID: Interpreting and Improving Deep Learning-based Anomaly Detection in Security Applications*** 
 
-Its pre-print version is available at [here](https://arxiv.org/abs/2005.07519). 
+Its pre-print version is available at [here](https://arxiv.org/abs/2109.11495). 
 
 You can find more details in this paper, and if you use the source code, **please cite the paper**.
 
