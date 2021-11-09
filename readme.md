@@ -36,7 +36,7 @@ We provide several cases to show how to interpret your own anomaly detection mod
 
 - [Tabular Data, Auto-Encoder, Synthetic Data](demos/tabular_synthesis/tabular_example_synthesis.ipynb)
 - [Tabular Data, Kitsune (NDSS'18), Network Intrusion Detection](demos/tabular_kitsune/tabular_example_kitsune.ipynb)
-- [Time Series (Univariate), DeepLog (CCS'17), Log Anomaly Detection](demos/tabular_kitsune/timeseries_example_deeplog.ipynb)
+- [Time Series (Univariate), DeepLog (CCS'17), Log Anomaly Detection](demos/timeseries_uni_deeplog/timeseries_example_deeplog.ipynb)
 - [Time Series (Multivariate), LSTM, Network Anomaly Detection](demos/timeseries_multi_nids/timeseries_example_nids.ipynb)
 - Graph Data (Link Prediction, Embedding), GL-GV (RAID'20), APT Lateral Movement Detection
 
