@@ -24,10 +24,11 @@ class TabularAID(Interpreter):
                  steps=500,             # epoches of optimizing reference (*within auto_params)
                  lr=1.,                 # learning rate of optimizing reference (*within auto_params)
                  k=5,                   # dimensions in interpretation result (*within auto_params)
-                 eps=0.01,              # dimensions in interpretation result (*within auto_params)
+                 eps=0.01,              # bound of fidelity loss (*within auto_params)
                  lbd=0.001,             # weight_coefficient of stability term (*within auto_params)
                  verbose=False):        # verbose output during training
-        super(TabularAID,self).__init__(model,thres)
+        super(TabularAID,self).__init__(model)
+        self.thres = thres
         self.input_size = input_size 
         if feature_desc is None:
             self.feature_desc = ['dim'+str(i) for i in range(self.input_size)]

@@ -1,6 +1,6 @@
 class Interpreter(object):
     
-    def __init__(self, model,thres):
+    def __init__(self, model):
         r"""
         Initializes internal attack state.
         Arguments:
@@ -11,7 +11,7 @@ class Interpreter(object):
         self.early_stop = True
         self.verbose = False
         self.model = model
-        self.thres = thres
+        # self.thres = thres
         self.model_name = str(model).split("(")[0]
         self.device = next(model.parameters()).device
 
