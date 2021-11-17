@@ -67,21 +67,20 @@ You can find more details in this paper, and if you use the source code, **pleas
 (Here is the **BibTex**:)
 
 >```
->@article{DBLP:journals/corr/abs-2109-11495,
->  author    = {Dongqi Han and
->               Zhiliang Wang and
->               Wenqi Chen and
->               Ying Zhong and
->               Su Wang and
->               Han Zhang and
->               Jiahai Yang and
->               Xingang Shi and
->               Xia Yin},
->  title     = {DeepAID: Interpreting and Improving Deep Learning-based Anomaly Detection
->               in Security Applications},
->  journal   = {CoRR},
->  volume    = {abs/2109.11495},
->  year      = {2021}
+>@inproceedings{10.1145/3460120.3484589,
+>author = {Han, Dongqi and Wang, Zhiliang and Chen, Wenqi and Zhong, Ying and Wang, Su and Zhang, Han and Yang, Jiahai and Shi, Xingang and Yin, Xia},
+>title = {DeepAID: Interpreting and Improving Deep Learning-Based Anomaly Detection in Security Applications},
+>year = {2021},
+>isbn = {9781450384544},
+>publisher = {Association for Computing Machinery},
+>address = {New York, NY, USA},
+>url = {https://doi.org/10.1145/3460120.3484589},
+>doi = {10.1145/3460120.3484589},
+>booktitle = {Proceedings of the 2021 ACM SIGSAC Conference on Computer and Communications Security},
+>pages = {3197–3217},
+>numpages = {21},
+>location = {Virtual Event, Republic of Korea},
+>series = {CCS '21}
 >}
 >```
 
