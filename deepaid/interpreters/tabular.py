@@ -116,7 +116,7 @@ class TabularAID(Interpreter):
         clip_index = torch.argsort(importance)
         clip_index = clip_index[-self.k:]
         
-        return {'index_inc':clip_index.numpy(), 'value_inc':reference[clip_index].numpy()} # 重要性升序
+        return {'index_inc':clip_index.numpy(), 'value_inc':reference[clip_index].numpy()}
         
         
     def auto_calibration(self,): # auto calibration of hyperparamters
